@@ -11,7 +11,7 @@ function testCode(code, expected, options = {}, plugins = []) {
   }
 }
 
-it('can set brightness', testCode(
+it('can set shade', testCode(
   'div { color: shade(#34bbed, 80) }',
   'div { color: #2da0cc }'
 ))
